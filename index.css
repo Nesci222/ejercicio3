@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Header";
+    src: url("fonts/BebasNeue-Regular.ttf");
+}
+
+body {
+    font-family: "Header";
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(175, 174, 172);
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+.container1 p {
+    display: flex;
+    width: 40%;
+}
+
+.container1 img {
+    display: flex;
+    position: relative;
+    left: 15%;
+    width: 25%;
+    height: 80%;
+    border-radius: 2%;
+}
+
+.container1 a {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    left: -70vw;
+    border-radius: 10%;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.botonskills {
+    color: rgb(53, 150, 230);
+    background-color: rgb(255, 255, 255);
+}
+
+.botonleermas {
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 150, 230);
+}
+
+.container2 {
+    display: flex;
+    background-color: rgb(175, 174, 172);
+    width: 60vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh auto;
+    overflow: auto;
+}
+
+.container2 p {
+    width: 50%;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(175, 174, 172);
+    width: 100vw;
+    height: 50vh;
+    align-items: center;    
+    justify-content: center;
+}
+	
+    
+.item-nav {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    padding: 0px 50px 0px 50px;
+    transition-timing-function: ease;
+	transition-duration: 3s;
+}
+
+.item-nav:hover {
+    transform: scale(1.6);
+	cursor: pointer;
+}
